@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="297765c1-0042-4ec9-9181-0c6de8167285" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BorsaReader/Model_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/BorsaReader/Model_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Storage/listino_milano.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Storage/listino_milano.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_DataMorningStar.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_DataMorningStar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_ObservationMat.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_ObservationMat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.get_DataMorningStar">
+  <component name="RunManager" selected="Python.create_ObservationMat">
     <configuration name="Extractor_Morningstar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BorsaReader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +55,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BorsaReader/Extractor_Morningstar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_ObservationMat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BorsaReader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_ObservationMat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_ObservationMat" />
         <item itemvalue="Python.get_DataMorningStar" />
         <item itemvalue="Python.Extractor_Morningstar" />
       </list>
@@ -107,54 +127,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="666" y="221" key="#xdebugger.evaluate" timestamp="1585673778558">
+    <state x="470" y="389" width="474" height="340" key="#xdebugger.evaluate" timestamp="1585846465206">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="666" y="221" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1585673778558" />
-    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1585673790415">
+    <state x="470" y="389" width="474" height="340" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1585846465206" />
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1585846480375">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585673790415" />
-    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1585673790414">
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585846480375" />
+    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1585846480370">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585673790414" />
-    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1585673790413">
+    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585846480370" />
+    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1585846480369">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585673790413" />
-    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1585673790414">
+    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585846480369" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1585846480374">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585673790414" />
-    <state width="1259" height="263" key="GridCell.Tab.1.bottom" timestamp="1585673790418">
+    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585846480374" />
+    <state width="1259" height="263" key="GridCell.Tab.1.bottom" timestamp="1585846481999">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585673790418" />
+    <state width="1259" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585846481999" />
     <state width="1259" height="263" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585669968862" />
-    <state width="1259" height="263" key="GridCell.Tab.1.center" timestamp="1585673790416">
+    <state width="1259" height="263" key="GridCell.Tab.1.center" timestamp="1585846481998">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1585673790416" />
+    <state width="1259" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1585846481998" />
     <state width="1259" height="263" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1585669968861" />
-    <state width="1259" height="263" key="GridCell.Tab.1.left" timestamp="1585673790416">
+    <state width="1259" height="263" key="GridCell.Tab.1.left" timestamp="1585846481997">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1585673790416" />
+    <state width="1259" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1585846481997" />
     <state width="1259" height="263" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1585669968861" />
-    <state width="1259" height="263" key="GridCell.Tab.1.right" timestamp="1585673790417">
+    <state width="1259" height="263" key="GridCell.Tab.1.right" timestamp="1585846481998">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1585673790417" />
+    <state width="1259" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1585846481998" />
     <state width="1259" height="263" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1585669968862" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1585665823147">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1585665823147" />
-    <state width="640" height="400" key="XDebugger.FullValuePopup" timestamp="1585673141965">
+    <state width="640" height="400" key="XDebugger.FullValuePopup" timestamp="1585845026653">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="640" height="400" key="XDebugger.FullValuePopup/0.0.1280.800@0.0.1280.800" timestamp="1585673141965" />
+    <state width="640" height="400" key="XDebugger.FullValuePopup/0.0.1280.800@0.0.1280.800" timestamp="1585845026653" />
     <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1585664941480">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -163,5 +183,16 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="196" y="143" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1585668825245" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
