@@ -24,3 +24,5 @@ for url in urls:
 with open(save_path, 'wb') as file:
     pkl.dump(companies_data, file)
 
+driver.quit()
+
