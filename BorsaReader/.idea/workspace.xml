@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="297765c1-0042-4ec9-9181-0c6de8167285" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BorsaReader/Model_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/BorsaReader/Model_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_ObservationMat.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_ObservationMat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BorsaReader/Extractor_Morningstar.py" beforeDir="false" afterPath="$PROJECT_DIR$/BorsaReader/Extractor_Morningstar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BorsaReader/Extractor_Prices_Yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/BorsaReader/Extractor_Prices_Yahoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_DataMorningStar.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_DataMorningStar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_DataYahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_DataYahoo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,41 +133,41 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="470" y="389" width="474" height="340" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1585846465206" />
-    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1585846480375">
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1585847667496">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585846480375" />
-    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1585846480370">
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585847667496" />
+    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1585847667494">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585846480370" />
-    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1585846480369">
+    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585847667494" />
+    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1585847667494">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585846480369" />
-    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1585846480374">
+    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585847667494" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1585847667496">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585846480374" />
-    <state width="1259" height="263" key="GridCell.Tab.1.bottom" timestamp="1585846481999">
+    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585847667496" />
+    <state width="1259" height="263" key="GridCell.Tab.1.bottom" timestamp="1585847667498">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585846481999" />
+    <state width="1259" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585847667498" />
     <state width="1259" height="263" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585669968862" />
-    <state width="1259" height="263" key="GridCell.Tab.1.center" timestamp="1585846481998">
+    <state width="1259" height="263" key="GridCell.Tab.1.center" timestamp="1585847667497">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1585846481998" />
+    <state width="1259" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1585847667497" />
     <state width="1259" height="263" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1585669968861" />
-    <state width="1259" height="263" key="GridCell.Tab.1.left" timestamp="1585846481997">
+    <state width="1259" height="263" key="GridCell.Tab.1.left" timestamp="1585847667497">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1585846481997" />
+    <state width="1259" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1585847667497" />
     <state width="1259" height="263" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1585669968861" />
-    <state width="1259" height="263" key="GridCell.Tab.1.right" timestamp="1585846481998">
+    <state width="1259" height="263" key="GridCell.Tab.1.right" timestamp="1585847667498">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1585846481998" />
+    <state width="1259" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1585847667498" />
     <state width="1259" height="263" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1585669968862" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1585665823147">
       <screen x="0" y="0" width="1280" height="800" />

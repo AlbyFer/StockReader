@@ -1,12 +1,11 @@
 from BorsaReader.Extractor_Morningstar import  get_urls, produce_table_wrapper
 import pandas as pd
-import numpy as np
 import pickle as pkl
 from selenium.webdriver import Safari
 
-save_path = '/Users/albertoferrando/Google Drive/Progetti/Investimenti/BorsaReader/Storage/BorsaMilano_dati_aziende.pkl'
-tickers_path = '/Users/albertoferrando/Google Drive/Progetti/Investimenti/BorsaReader/Storage/listino_milano.csv'
-base = 'https://www.morningstar.com/stocks/xmil/'
+save_path = '/Users/albertoferrando/Google Drive/Progetti/Investimenti/BorsaReader/Storage/Nasdaq_companies_data.pkl'
+tickers_path = '/Users/albertoferrando/Google Drive/Progetti/Investimenti/BorsaReader/Storage/listing_nasdaq.csv'
+base = 'https://www.morningstar.com/stocks/xnas/'
 
 companies = pd.read_csv(tickers_path)
 
