@@ -64,6 +64,28 @@ def format_financials_prices(financials, ticker, path_to_folder_prices, interest
     return result.to_frame().T
 
 
+def format_financials_prediction(financials, ticker, interest_ratios):
+
+    print('Formatting company ' + ticker)
+
+    upper_date = financials[ticker].columns[-1]
+    result = financials[ticker].reindex(interest_ratios)[upper_date]
+
+    result.index = pd.Index([x.replace('%', 'perc') for x in result.index])
+    result.index = pd.Index([x.replace('\xa0', ' ') for x in result.index])
+    result.name = None
+
+    if 'Dividends EUR' in result.index:
+        if np.isnan(result['Dividends EUR']):
+            result['Dividends EUR'] = 0
+        else:
+            return result.to_frame().T
+    else:
+        pass
+
+    return result.to_frame().T
+
+
 
 def hyperopt_XGBoost(param_space, X_train, y_train, X_test, y_test, num_eval, metric, trials_path_pickle=None,
                      savepath_trials=None, savepath_model=None, cv=5, type='regression'):
@@ -114,7 +136,7 @@ def hyperopt_XGBoost(param_space, X_train, y_train, X_test, y_test, num_eval, me
 
     print("")
     print("##### Results")
-    print("Score best parameters: ", min(losses) * -1)
+    print("Score best parameters: ", min(losses))
     print("Best parameters: ", best_params)
     print("Test Score: ", test_score)
     print("Parameter combinations evaluated: ", num_eval)

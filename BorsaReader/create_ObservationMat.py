@@ -1,5 +1,4 @@
 import pandas as pd
-
 from BorsaReader.Model_builder import read_financials, format_financials_prices
 
 

@@ -7,6 +7,9 @@ from BorsaReader.Model_builder import hyperopt_XGBoost
 
 
 
+### ================================================================================================================ ###
+### ITALIAN DATA
+
 save_trials_name = '/Users/albertoferrando/Google Drive/Progetti/Investimenti/BorsaReader/Storage/trials_milano_2.pkl'
 save_model_name = '/Users/albertoferrando/Google Drive/Progetti/Investimenti/BorsaReader/Storage/model_milano_2.pkl'
 
@@ -47,6 +50,8 @@ mib_companies['Delta'] = (mib_companies['Price'] - mib_companies['PredictedPrice
 mib_companies.sort_values(by='Delta', ascending=True)
 
 
+### ================================================================================================================ ###
+### NASDAQ DATA
 
 
 
