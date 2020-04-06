@@ -3,6 +3,7 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 import time
+import pickle as pkl
 
 
 
@@ -57,6 +58,7 @@ def format_tables(table):
 def produce_table_wrapper(url, driver):
 
     try:
+        time.sleep(1)
         tables = get_tables(url, driver)
     except:
         print('No data on company')
@@ -64,8 +66,24 @@ def produce_table_wrapper(url, driver):
 
     all_tables = []
     for table in tables:
-        all_tables.append(format_tables(table))
+        try:
+            all_tables.append(format_tables(table))
+        except:
+            print('Company has wrong date axis. Skipping company')
+            return None
 
     all_tables = pd.concat(all_tables, axis=0, sort=True)
 
     return all_tables
+
+
+def merge_outputs(filepaths):
+
+    all_files = []
+    for file in filepaths:
+        with open(file, 'rb') as handle:
+            all_files.append(pkl.load(handle))
+
+    result = {**all_files[0], **all_files[1], **all_files[2]}
+
+    return result
